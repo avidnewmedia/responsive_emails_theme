@@ -1,0 +1,4 @@
+name = Responsive Emails Theme
+description = A Custom Druapl theme based on Zurb's Foundation for Emails for sending responsive emails in Drupal.
+
+core = 7.x
