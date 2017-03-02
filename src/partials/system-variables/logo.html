@@ -1,0 +1,9 @@
+<?php if (theme_get_setting('toggle_logo', 'responsive_emails_theme')) : ?>
+	<a href="<?php print $GLOBALS['base_url']; ?>">
+		<?php if (theme_get_setting('use_default_theme_logo', 'responsive_emails_theme')) : ?>
+			<img class="text-center" src="<?php print theme_get_setting('logo', variable_get('theme_default')); ?>" />
+		<?php else : ?>
+			<img class="text-center" src="<?php print theme_get_setting('logo', 'responsive_emails_theme'); ?>" />
+		<?php endif; ?>
+	</a>
+<?php endif; ?>

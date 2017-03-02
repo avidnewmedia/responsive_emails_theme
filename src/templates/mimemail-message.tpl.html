@@ -1,5 +1,33 @@
----
-subject: mimemail default template
----
+<wrapper class="header">
+	<container>
+		<row class="collapse">
+			<columns small="12" large="4">
+				{{> logo}}
+			</columns>
+			<columns small="12" large="8">
+				<p class="text-right">{{> slogan}}</p>
+			</columns>
+		</row>
+	</container>
+</wrapper>
 
-{{> mimemail--body}}
+<container>
+
+	<spacer size="16"></spacer>
+
+	<row>
+		<columns small="12">
+			{{> mimemail--body}}
+		</columns>
+	</row>
+	<wrapper class="secondary">
+
+		<spacer size="16"></spacer>
+
+		<row>
+			<columns small="12">
+				<span class="text-center">{{> footer}}</span>
+			</columns>
+		</row>
+	</wrapper>
+</container>

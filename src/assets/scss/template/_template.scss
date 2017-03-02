@@ -1,9 +1,14 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-// Body Styles 
+// Default Table Styles
+table {
+  width: 100%
+}
+
+// Body Styles
 body,
-html, 
+html,
 .body {
   background: #f3f3f3 !important;
 }
@@ -17,16 +22,12 @@ html,
 }
 
 // Full Width Headers
-.header {
-  background: #8a8a8a;
-}
-
 .header .columns {
   padding-bottom: 0;
 }
 
 .header p {
-  color: #fff;
+  color: $black;
   padding-top: 15px;
 }
 

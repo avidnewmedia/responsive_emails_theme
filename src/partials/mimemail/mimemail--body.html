@@ -1,1 +1,5 @@
-<?php print $body ?>
+<?php if (!empty($body)) : ?>
+	<?php print $body ?>
+<?php else : ?>
+	{{> mimemail--body--demo}}
+<?php endif; ?>
