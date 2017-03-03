@@ -9,7 +9,7 @@ This project is a Drupal Theme that allows themers to easily build responsive em
 - Sass compilation
 - Image compression
 - Built-in BrowserSync server (requires the use of [blueoi/blueoi_mail](https://github.com/andyg5000/blueoi))
-- Full email inlining process (requires [blueoi/blueoi_mail](https://github.com/andyg5000/blueoi and [emogrifier](https://drupal.org/project/emogrifier))
+- Full email inlining process (requires [blueoi/blueoi_mail](https://github.com/andyg5000/blueoi) and [emogrifier](https://drupal.org/project/emogrifier))
 
 ## Customization
 
