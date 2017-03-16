@@ -48,7 +48,12 @@ function pages() {
     }))
     .pipe(inky())
     .pipe($.extReplace('.php'))
-    .pipe(gulp.dest('templates'));
+    .pipe(gulp.dest('templates'))
+
+    // Update compiled file timestamp.
+    .pipe($.shell([
+      'touch <%= file.path %>'
+    ]));
 }
 
 // Reset Panini's cache of layouts and partials
