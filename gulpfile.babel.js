@@ -75,11 +75,10 @@ function images() {
     .pipe(gulp.dest('./images'));
 }
 
-// Start a server with LiveReload to preview the site in
+// Start a server with LiveReload to preview the site in browser
 function server(done) {
   browser.init({
-    server: 'templates'
-    // proxy: 'EXAMPLE.boi/blueoi/themed-email'
+    // proxy: 'http://local.dev/blueoi/themed-email' // set this to your development url
   });
   done();
 }

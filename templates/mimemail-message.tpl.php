@@ -39,7 +39,7 @@
             				
             			</th></tr></table></th>
             			<th class="small-12 large-8 columns last"><table><tr><th>
-            				<p class="text-right"><?php if (theme_get_setting('toggle_slogan', 'responsive_emails_theme') : ?>
+            				<p class="text-right"><?php if (theme_get_setting('toggle_slogan', 'responsive_emails_theme')) : ?>
             	<span class="text-center">
             		<?php print variable_get('site_slogan', NULL); ?>
             	</span>
@@ -60,7 +60,7 @@
             			<?php if (!empty($body)) : ?>
             				<?php print $body ?>
             			<?php else : ?>
-            				<h1>Sample h1</h1>
+            				<!--<h1>Sample h1</h1>-->
             				<h2>Sample h2</h2>
             				<h3>Sample h3</h3>
             				<p>Thank you for using my Foundation for Emails based Drupal theme <a href="https://github.com/doostinharrell/responsive_emails_theme">"Responsive Emails Theme"</a>.</p>
